@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spinning Wheel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Spinning Wheel</h1>
+        <div class="input-container">
+            <input type="text" id="nameInput" placeholder="Enter name">
+            <button onclick="addName()">Add Name</button>
+        </div>
+        <div class="wheel-container">
+            <canvas id="wheelCanvas" width="500" height="500"></canvas>
+            <div class="indicator"></div>
+        </div>
+        <button onclick="spinWheel()">Spin Wheel</button>
+        <h2>Pairs</h2>
+        <ul id="pairsList"></ul>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
